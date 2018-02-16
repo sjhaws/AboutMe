@@ -15,6 +15,13 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
 }
+.viewer{
+    display: none;
+    background-color: rgb(182, 192, 201);
+    opacity: .95;
+    height: 675px;
+    margin-top: 20%;
+}
 .gallogo {
     height: 120px;
 }
@@ -100,13 +107,7 @@ p {
     float: left;
     padding: 15px;
 }
-.viewer{
-    background-color: rgb(182, 192, 201);
-    opacity: .95;
-    height: 675px;
-    margin-top: 20%;
-    display: none;
-}
+
 .tbox{
     margin: 20px;
 }
@@ -123,4 +124,10 @@ p {
 .imgnotrans{
     width:80%; 
     margin: 10px 10% 10px 10%;
+}
+.panel{
+    background-color: rgb(182, 192, 201);
+    opacity: .95;
+    height: 675px;
+    margin-top: 10%;
 }
